@@ -27,7 +27,7 @@ const obj: { lat: number; lon: number } = { lat: 37.5, lon: 11 };
 const arr: string[] = ['123', '456'];
 const arr2: number[] = [123, 367];
 const arr3: Array<number> = [123, 333];
-const arr4: [number, number, string] = [123, 456, '1111'];
+const arr4 = [123, 456, '1111'];
 
 console.log(
 	a,
@@ -46,3 +46,10 @@ console.log(
 	arr3,
 	arr4,
 );
+
+const enum Tffest {
+	UP = '123',
+	test = '222',
+}
+
+const UP = Tffest.UP;
