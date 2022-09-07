@@ -53,3 +53,14 @@ const enum Tffest {
 }
 
 const UP = Tffest.UP;
+
+/**
+ * type 가드
+ */
+function numOrStr(a: number | string) {
+	if (typeof a === 'string') {
+		a.split(',');
+	} else {
+		a.toFixed(1);
+	}
+}
